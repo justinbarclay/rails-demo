@@ -7,4 +7,5 @@
   :ensure t
   :config
   (setq lsp-eldoc-enable-hover 't
+        lsp-ruby-lsp-use-bundler 't
         lsp-eldoc-render-all 't))
